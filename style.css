@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+ @font-face {
+    font-family: p;
+    src: url(NanumGothic-Regular.ttf);
+}
+ 
+ 
+ 
+ *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: #DADDD8;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  
+header{
+    background-color: #8FB339;
+    height: 45px;
+}
+nav:hover{
+    box-shadow: 5px 5px 20px rgba(195, 218, 144, 0.616);
+}
+ul{
+    display: inline;
+  
+}
+.logo{
+    display: inline;
+   font-size: 37px;
+   margin-right: 30px;
+  margin-left: 10px;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  color: #C7D59F;
+  
+
+}
+.logo:hover{
+    text-shadow: 4px 4px 6px black;
+}
+.a{
+    margin: 0px 20px 5px 20px;
+   border: 1px double black;
+   border-radius: 20%;
+   padding: 5px;
+   /* text-align: center;
+   align-items: center;
+   justify-content: center;*/
+    display: inline;
+    text-decoration: none;
+    color: black;
+   
+
+} 
+.a:hover{
+    font-weight: bold;
+    text-shadow: 2px 2px 9px rgba(51, 38, 38, 0.61);
+}
+input{
+    height: 30px;
+    width: 267px;
+ 
+  border: 1px solid black;
+}
+button{
+    height: 30px;
+    width: 60px;
+    border-radius: 50%;
+    
+}
+button:hover{
+    box-shadow: 2px 2px 5px black;
+} 
+
+
+    
+
+
+header {
+    padding: 5px 0;
+}
+
+nav {
+     display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+input{
+    padding: 5px;
+    font-size: 16px;
+    background-color: #B7CE63;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #B7CE63;
+    margin-left: -60px;
+    
+}
+
+/* l */
+.an{
+    text-decoration: none;
+    color: #000000;
+}
+ 
+.card{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+.card-img{
+    
+    width: 100%;
+    height: 192px; 
+}
+.cardc{
+    display: flex;
+    gap: 120px;
+    padding: 20px;
+    justify-content: center;
+
+} 
+.card{
+    border: 2px solid #000000;
+    border-radius: 5px;
+    text-align: left ;
+    width: 18rem;
+}
+h3{
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+p{
+    font-family: p;
+}
+
+.sha{
+    box-shadow: 10px 10px 20px black;
+    /* background-color: #A69F98; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4dsoCOCuKHN_lgzSnrgaxatLzcsekYqTKOg&s);
+    background-size: cover;
+}
+.card-body {
+    background-color: #86817ca1;
+}
+.f{
+    background-color: #8FB339;
+    font-family: fantasy;
+    text-align: center;
+   box-shadow: 3px 3px 10px black;
+   text-shadow: 2px 2px 7px black;
+}
+.f:hover{
+    box-shadow: 6px 6px 20px black;
+}
+ .an:hover{ 
+    box-shadow: -7px -7px 25px black;
+    border-radius: 10px;
+} 
+ .card:hover{
+    box-shadow: 13px 13px 30px black;
+ }
+
+ 
+
