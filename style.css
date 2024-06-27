@@ -102,7 +102,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     background-color: #B7CE63;
-    margin-left: -60px;
+    /* margin-left: -60px; */
     
 }
 
@@ -169,6 +169,8 @@ p{
  .card:hover{
     box-shadow: 13px 13px 30px black;
  }
-
+#enter{
+    margin-right: 25px;
+}
  
 
