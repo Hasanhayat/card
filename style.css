@@ -145,8 +145,8 @@ p{
 
 .sha{
     box-shadow: 10px 10px 20px black;
-    /* background-color: #A69F98; */
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4dsoCOCuKHN_lgzSnrgaxatLzcsekYqTKOg&s);
+    background-color: #A69F98;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4dsoCOCuKHN_lgzSnrgaxatLzcsekYqTKOg&s); */
     background-size: cover;
 }
 .card-body {
